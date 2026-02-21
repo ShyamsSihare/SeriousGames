@@ -1,0 +1,11 @@
+optimizer: adam
+learning_rate: 0.001  # reported lr in study
+batch_size: 64
+epochs: TBD  # fill exact epochs used in repo experiments
+early_stopping: true
+patience: TBD  
+lstm_units: 50  # reported LSTM size
+runs: 10  # independent runs used for reported means ± SD
+cross_validation: stratified_kfold
+k_folds: 5
+seed_list: [TBD] 
