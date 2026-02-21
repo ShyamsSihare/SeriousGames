@@ -1,0 +1,3 @@
+- Cross-validation: stratified k-fold (k=5), repeated as in the paper (repeats = 10 unless otherwise noted).
+- Reported metrics: accuracy, precision, recall, F1 (macro/micro), bootstrapped 95% CIs. Group differences assessed via Wilcoxon signed-rank test with effect sizes. 
+- Baselines included: LSTM-only, Transformer, vanilla CNN, RandomForest, SVM. Hyperparameter search on validation folds.
