@@ -1,0 +1,1 @@
+- Hardware summary for reported runs: Intel Xeon workstation, 64 GB RAM, NVIDIA RTX (2080 reported for one experiment).
